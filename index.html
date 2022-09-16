@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h3>Password Generator (HTML, CSS, Javascript)</h3>
+      </div>
+
+      <!-- Password Container -->
+      <div id="passwordHeader" class="password-header">
+        <h3 id="passwordContainer" class="password-container"></h3>
+
+        <button id="copyBtn" class="btn-copy">Copy</button>
+      </div>
+
+      <!-- Slider -->
+      <div class="generator-container">
+        <div class="generator-text">
+          <h2>Character Length</h2>
+
+          <p id="passLength">0</p>
+        </div>
+        <div class="slidecontainer">
+          <input
+            class="slider"
+            id="sliderRange"
+            type="range"
+            min="0"
+            max="30"
+            value="0"
+          />
+        </div>
+
+        <div>
+          <input class="checkBox" checked type="checkbox" id="upperCase" />
+          <label> Include Uppercase Letters </label><br />
+        </div>
+
+        <div>
+          <input class="checkBox" checked type="checkbox" id="lowerCase" />
+          <label> Include Lowercase Letters </label><br />
+        </div>
+
+        <div>
+          <input class="checkBox" checked type="checkbox" id="number" />
+          <label> Include Number </label><br />
+        </div>
+
+        <div>
+          <input class="checkBox" checked type="checkbox" id="symbol" />
+          <label> Include Symbols </label><br />
+        </div>
+
+        <button id="generateBtn" class="btn">Generate</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

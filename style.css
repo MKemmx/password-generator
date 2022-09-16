@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.slidecontainer {
+  margin: 10px 0 20px 0;
+}
+
+.slider {
+  width: 100%;
+}
+
+.password-header {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  background-color: #24232b;
+  padding: 10px 15px;
+  margin-top: 20px;
+  margin-inline: auto;
+  color: white;
+}
+
+.generator-container {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  background-color: #24232b;
+  padding: 30px 40px;
+  margin-top: 10px;
+  margin-inline: auto;
+  color: white;
+}
+
+.generator-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.generator-text p {
+  font-size: 24px;
+  color: #a4ffaf;
+}
+
+.password-container {
+  background-color: #8fec9a;
+  padding: 12px 5px;
+  color: #222;
+}
+
+.btn {
+  width: 100%;
+  cursor: pointer;
+  padding: 8px 13px;
+  background: #a4ffaf;
+  outline: none;
+  border: none;
+  margin: 20px 0 0px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-copy {
+  background-color: #a4ffaf;
+  padding: 8px 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.checkBox {
+  accent-color: #a4ffaf;
+}
+
+label {
+  font-size: 20px;
+  margin-left: 5px;
+}
